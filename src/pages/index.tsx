@@ -19,13 +19,13 @@ export default function Home() {
         </div>
 
         <div className={styles.networks}>
-          <a href="https://github.com/ryansldev">
+          <a target="_blank" href="https://github.com/ryansldev">
             <FiGithub />
           </a>
-          <a href="https://www.instagram.com/ryansldev/?hl=pt-br">
+          <a target="_blank" href="https://www.instagram.com/ryansldev/?hl=pt-br">
             <FiInstagram />
           </a>
-          <a href="https://twitter.com/ryansldev">
+          <a target="_blank" href="https://twitter.com/ryansldev">
             <FiTwitter />
           </a>
         </div>
