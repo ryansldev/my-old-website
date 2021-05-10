@@ -1,42 +1,32 @@
 .homepage {
-  // @media (max-width: 768px) {
-  //   padding-top: 30rem;
-  // }
-  
   .heroContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding-right: 4.5rem;
     height: 100vh;
+    width: 100%;
 
     .logoContainer {
-      position: relative;
-      left: -1rem;
+      position: absolute;
+      left: 0;
+      bottom: 0;
       height: 100vh;
-      width: 40vw;
+      width: 100%;
 
       background-image: url('/logo-header.svg');
-      background-position: center;
+      background-position: bottom 0 left 0;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    @media (min-width: 1457px) {
+    @media (max-width: 1300px) {
       .logoContainer {
-        position: relative;
-        left: 0;
-        height: 100vh;
-        width: 37vw;
-
-        background-image: url('/logo.svg');
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        width: 50%;
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 600px) {
       .logoContainer {
         display: none;
       }
@@ -46,6 +36,7 @@
       display: flex;
       flex-direction: column;
       gap: 40px;
+      margin-left: 40%;
 
       h1 {
         width: 90%;
@@ -67,46 +58,39 @@
       }
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: 1024px) {
       .networks {
         display: flex;
         flex-direction: row;
-
+        margin-left: 40%;
         margin-top: 30px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .helloContainer {
+        margin-left: 0;
+      }
+
+      .networks {
+        margin: 30px 0 0 0;
       }
     }
   }
 
   @media (max-width: 1024px) {
-    .heroContainer {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-  }
-
-  @media (max-width: 425px) {
     .heroContainer {    
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: flex-start;
     }
   }
 
-  .primaryWave {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    bottom: -12%;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media (max-width: 1300px) {
-    .primaryWave {
-      bottom: 1%;
+  @media (max-width: 600px) {
+    .heroContainer {
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
   }
 }
