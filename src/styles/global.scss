@@ -16,7 +16,8 @@
   --green-500: #04D361;
   
   --blue-300: #92B1FC;
-  --blue-400: #608EFA; 
+  --blue-400: #608EFA;
+  --blue-450: #487CFA;
   --blue-500: #2E6AF9;
   --blue-800: #0048F5;
 }
@@ -37,17 +38,28 @@ body {
   background-color: var(--gray-50);
 }
 
-body, input, textarea {
-  font: 500 1rem Open Sans, sans-serif;
+body, input, textarea, span, p {
+  font: 400 1rem Open Sans, sans-serif;
   color: var(--gray-500);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-weight: 600;
   font-family: Raleway, sans-serif;
   color: var(--gray-800);
+  font-size: 2.25rem;
 }
 
-h1 {
-  font-size: 2.25rem;
+h2 {
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+  color: var(--gray-500);
+  font-size: 1.5rem;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 500;
+  font-family: Raleway, sans-serif;
+  color: var(--gray-500);
+  font-size: 1.125rem;
 }
