@@ -2,7 +2,7 @@ import styles from './home.module.scss';
 import Head from "next/head";
 
 import { Wave } from '../components/Wave';
-import { FiGithub, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi';
 
 export default function Home() {
   return (
@@ -23,6 +23,9 @@ export default function Home() {
             <a target="_blank" href="https://github.com/ryansldev">
               <FiGithub />
             </a>
+            <a target="_blank" href="https://www.linkedin.com/in/ryansldev/">
+              <FiLinkedin />
+            </a>
             <a target="_blank" href="https://www.instagram.com/ryansldev/?hl=pt-br">
               <FiInstagram />
             </a>
@@ -32,7 +35,8 @@ export default function Home() {
           </div>
         </div>
       </Wave>
-
+      <div className={styles.projectsContainer}>
+      </div>
     </div>
   )
 }
