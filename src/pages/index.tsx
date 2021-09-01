@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import { Wave } from '../components/Wave';
 import { FiGithub, FiLinkedin, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { RiDiscordLine } from 'react-icons/ri';
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
             </a>
             <a target="_blank" href="https://twitter.com/ryansldev">
               <FiTwitter />
+            </a>
+            <a target="_blank" href="https://discord.gg/7QU93fUHun">
+              <RiDiscordLine />
             </a>
           </div>
         </div>
