@@ -36,6 +36,20 @@ export default function Home() {
         </div>
       </Wave>
       <div className={styles.projectsContainer}>
+        <div className={styles.projectSectionTitle}>
+          <h1>Meus projetos</h1>
+          <h2>Alguns projetos que fiz e estou fazendo ao longo dessa jornada!</h2>
+        </div>
+        <div className={styles.projects}>
+          <div className={styles.project}>
+            <a href="https://github.com/EddyPBR/world-wide-dev" target="_blank" rel="noopener noreferer">
+              <div className={styles.WWDProjectImage}></div>
+            </a>
+            <a href="https://github.com/ryansldev/letmeask" target="_blank" rel="noopener noreferer">
+              <div className={styles.LetMeAskProjectImage}></div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

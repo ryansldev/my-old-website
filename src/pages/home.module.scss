@@ -94,4 +94,108 @@
       padding-right: 2rem;
     }
   }
+
+  .projectsContainer {
+    background: #107DFE;
+    height: 100%;
+    padding-top: 16em;
+    padding-left: 3em;
+
+    .projectSectionTitle {
+      max-width: 300px;
+
+      @media (max-width: 1024px) {
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      h1, h2 {
+        color: #f2f2f2;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-size: 1.125rem;
+        font-weight: 400;
+      }
+
+      @media (max-width: 769px) {
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      padding-top: 0;
+      padding-left: 0;
+    }
+
+    .projects {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+
+      flex-grow: 1;
+      margin: 0 auto;
+      width: auto;
+      position: sticky;
+      top: 0;
+
+      @media (min-width: 1024px) {
+        margin: -12em 0 -3em;
+        transform: rotateX(60deg) rotateY(0deg) rotate(-45deg) scale(1.125);
+        transform-style: preserve-3d;
+      }
+
+      .project {
+        margin: 1em;
+        height: 100%;
+        width: 100%;
+
+        max-width: 842px;
+        position: relative;
+        transition-property: transform;
+        transform-origin: center center;
+        transition-duration: 300ms;
+
+        .WWDProjectImage {
+          background-image: url('../../public/wwd.jpg');
+          background-position: 50%;
+          background-size: cover;
+          padding-top: 62.5%;
+          border-radius: 5vw;
+          margin-bottom: 2rem;
+          box-shadow: 0 2vh 5vw rgb(0 0 0 / 30%);
+        }
+
+        .LetMeAskProjectImage {
+          background-image: url('../../public/letmeask.jpg');
+          background-position: 50%;
+          background-size: cover;
+          padding-top: 62.5%;
+          border-radius: 5vw;
+          margin-bottom: 2rem;
+          box-shadow: 0 2vh 5vw rgb(0 0 0 / 30%);
+        }
+
+        .projectLink {
+          height: 100%;
+          width: 100%;
+        }
+
+        @media (min-width: 769px) {
+          width: calc(50% - 2em);
+        }
+      }      
+    }
+  }
 }
