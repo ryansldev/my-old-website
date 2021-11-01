@@ -39,6 +39,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body, input, textarea, span, p {
   font: 400 1rem Open Sans, sans-serif;
   color: var(--gray-500);
