@@ -168,7 +168,7 @@
         transition-duration: 300ms;
 
         .WWDProjectImage {
-          background-image: url('../../public/wwd.jpg');
+          background-image: url('/wwd.jpg');
           background-position: 50%;
           background-size: cover;
           padding-top: 62.5%;
@@ -177,7 +177,7 @@
         }
 
         .LetMeAskProjectImage {
-          background-image: url('../../public/letmeask.jpg');
+          background-image: url('/letmeask.jpg');
           background-position: 50%;
           background-size: cover;
           padding-top: 62.5%;
