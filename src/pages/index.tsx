@@ -55,6 +55,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.contact}>
+        <span>deseja desenvolver um projeto</span>
+        <a target="_blank" href="https://www.linkedin.com/in/ryansldev/"><h1>Vamos trabalhar juntos</h1></a>
+      </div>
     </div>
   )
 }
