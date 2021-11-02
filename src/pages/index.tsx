@@ -63,10 +63,10 @@ export default function Home() {
 
             <div>
               <p>
-                Me chamo Ryan, começei essa jornada em busca do conhecimento, programação e UI/UX Design em torno dos meus 11 anos de idade, desde pequeno sempre gostei de tecnologia e games então sempre estive em contato com tudo isso. Essa busca por programação surgiu por meio do meu irmão, eu sempre achei chato toda essa coisa de programação por que eu sempre via ele resolvendo bugs e quebrando um pouco da cabeça para resolvê-los 😂
+                Me chamo Ryan, começei essa jornada em busca do conhecimento, programação e UI/UX Design em torno dos meus 11 anos de idade, desde pequeno sempre gostei de tecnologia e games então sempre estive em contato com tudo isso. Essa busca por programação surgiu por meio do meu irmão, eu sempre achei chata toda essa coisa de programação porque eu sempre via ele resolvendo bugs e quebrando um pouco da cabeça para resolvê-los 😂
               </p>
               <p>
-              Porém, ele me convenceu a tentar aprender e a partir dai se iniciou a minha paixão por programação e todo esse mundo tecnológico incluindo UI/UX Design, desde então não paro mais de programar e atualmente estou apaixonado pela tecnologia JS e todo seu entorno! 😍
+              Porém, ele me convenceu a tentar aprender e a partir dai se iniciou a minha paixão por programação e todo esse mundo tecnológico(incluindo UI/UX Design), desde então não paro mais de programar e atualmente estou apaixonado por tecnologia, JS e todo seu entorno! 😍
               </p>
             </div>
           </div>
