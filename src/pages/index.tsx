@@ -75,25 +75,27 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.contact}>
-        <span>deseja desenvolver um projeto</span>
-        <a target="_blank" href="https://www.linkedin.com/in/ryansldev/"><h1>Vamos trabalhar juntos</h1></a>
-      </div>
-      <div className={styles.skills} id="skills">
-        <div className={styles.skillsContainer}>
-          <div className={styles.skillsImages}>
-            <img alt="Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-            <img alt="Ts" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
-            <img alt="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-            <img alt="Next.js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
-            <img alt="Node.js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img alt="Figma" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-            <img alt="HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-            <img alt="CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-            <img alt="Bulma" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" />
+      <Wave>
+        <div className={styles.contact}>
+          <span>deseja desenvolver um projeto</span>
+          <a target="_blank" href="https://www.linkedin.com/in/ryansldev/"><h1>Vamos trabalhar juntos</h1></a>
+        </div>
+        <div className={styles.skills} id="skills">
+          <div className={styles.skillsContainer}>
+            <div className={styles.skillsImages}>
+              <img alt="Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
+              <img alt="Ts" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
+              <img alt="React" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+              <img alt="Next.js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+              <img alt="Node.js" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+              <img alt="Figma" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+              <img alt="HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+              <img alt="CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+              <img alt="Bulma" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bulma/bulma-plain.svg" />
+            </div>
           </div>
         </div>
-      </div>
+      </Wave>
     </div>
   )
 }
