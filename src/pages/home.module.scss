@@ -248,7 +248,7 @@
   }
 
   .contact {
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 3rem 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -262,6 +262,19 @@
 
     a {
       color: #107DFE;
+    }
+  }
+
+  .skills {
+    .skillsContainer {
+      width: 100%;
+      max-width: 90vw;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   }
 }
