@@ -98,7 +98,7 @@
   .projectsContainer {
     background: #107DFE;
     height: 100%;
-    padding-top: 16em;
+    padding-top: 10em;
     padding-left: 3em;
 
     .projectSectionTitle {
@@ -165,7 +165,7 @@
         position: relative;
         transition-property: transform;
         transform-origin: center center;
-        transition-duration: 300ms;
+        transition-duration: 200ms;
 
         .WWDProjectImage {
           background-image: url('/wwd.jpg');
@@ -193,7 +193,7 @@
         @media (min-width: 769px) {
           width: calc(50% - 2em);
         }
-      }      
+      }
     }
   }
 

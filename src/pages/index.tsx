@@ -47,10 +47,10 @@ export default function Home() {
         <div className={styles.projects}>
           <div className={styles.project}>
             <a href="https://github.com/EddyPBR/world-wide-dev" target="_blank" rel="noopener noreferer">
-              <div className={styles.WWDProjectImage}></div>
+              <div className={`${styles.WWDProjectImage}`}></div>
             </a>
             <a href="https://github.com/ryansldev/letmeask" target="_blank" rel="noopener noreferer">
-              <div className={styles.LetMeAskProjectImage}></div>
+              <div className={`${styles.LetMeAskProjectImage}`}></div>
             </a>
           </div>
         </div>
